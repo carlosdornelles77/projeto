@@ -18,7 +18,7 @@
 .light {
   --text-color: rgb(0, 0, 0);
   --bg-url: url(./assets/bg-mobile-light.jpg);
-  --stroke-color: black; 
+  --stroke-color: rgb(0, 0, 0); 
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.1);
@@ -34,7 +34,6 @@ html, body {
 
 body {
   background: var(--bg-url) no-repeat center/cover;
-  background-color: #000; /* fallback */
   min-height: 100vh;
   min-height: 100dvh;
 }
@@ -177,7 +176,7 @@ footer {
   }
 
   .light {
-    --bg-url: url(./assets/bg-desktop-light);
+    --bg-url: url(./assets/bg-desktop-light.jpg);
   }
 }
 
